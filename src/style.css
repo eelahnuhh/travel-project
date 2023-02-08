@@ -142,6 +142,16 @@ section.secondary {
   aspect-ratio: 1/1;
 }
 
+.music-embed {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0;
+  aspect-ratio: 16 / 9;
+  border-radius: 4px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.8),
