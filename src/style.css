@@ -129,8 +129,17 @@ section.secondary {
   margin: 50px 0;
 }
 
+.card-heading.grid {
+  grid-gap: 0;
+}
+
 .card-body {
   padding: 32px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 footer {
@@ -170,7 +179,7 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 .grid {
@@ -224,5 +233,13 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 5px;
+  }
+
+  .card-heading img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
