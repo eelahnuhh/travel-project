@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background: #272044;
+  background: #181429;
 }
 
 .container {
@@ -16,7 +16,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 230px 0;
 }
 
 header h1 {
