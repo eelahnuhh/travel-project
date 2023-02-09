@@ -124,32 +124,19 @@ section.secondary {
   background: #f8f8f8;
 }
 
-.card {
-  background: white;
-  margin: 50px 0;
+thead {
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-.card-heading.grid {
-  grid-gap: 0;
-}
-
-.card-body {
-  padding: 32px;
-}
-
-.embed {
-  width: 100%;
-  aspect-ratio: 1/1;
-}
-
-.music-embed {
-  max-width: 900px;
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  padding: 10px 0;
-  aspect-ratio: 16 / 9;
-  border-radius: 4px;
+td a {
+  font-size: 10px;
+  display: inline-block;
+  opacity: 0.7;
 }
 
 footer {
@@ -211,6 +198,34 @@ footer a {
 
 .text-center {
   text-align: center;
+}
+
+.card {
+  background: white;
+  margin: 50px 0;
+}
+
+.card-heading.grid {
+  grid-gap: 0;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.music-embed {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0;
+  aspect-ratio: 16 / 9;
+  border-radius: 4px;
 }
 
 .instagram-embeds {
