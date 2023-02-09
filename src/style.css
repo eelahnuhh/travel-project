@@ -262,6 +262,42 @@ footer a {
     padding: 30px;
   }
 
+  section h2 {
+    font-size: 13px;
+  }
+
+  section h3 {
+    font-size: 25px;
+  }
+
+  section p {
+    font-size: 13px;
+  }
+
+  section a {
+    font-size: 10px;
+  }
+
+  table {
+    margin: 25px 0;
+  }
+
+  th {
+    font-size: 15px;
+  }
+
+  footer h3 {
+    font-size: 17px;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  footer li {
+    font-size: 13px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 5px;
